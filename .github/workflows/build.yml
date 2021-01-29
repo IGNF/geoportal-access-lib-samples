@@ -40,17 +40,16 @@ jobs:
           repository: IGNF/geoportal-access-lib-samples
           ref: gh-pages
       
-      - name: Initialize
-        run: |
-          rm -rf samples/
-          mkdir samples/
-      
       - name: Download Binary artifacts
         uses: actions/download-artifact@v2
         with:
           name: dist
-          path: samples
+          path: .
       
+      - name: Build 404
+        run: |
+          cp index.html 404.html
+  
       - name: Publish
         run: |
           git config user.name github-actions
