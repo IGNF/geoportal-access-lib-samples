@@ -1,3 +1,4 @@
+[![Publish samples project ...](https://github.com/IGNF/geoportal-access-lib-samples/actions/workflows/build.yml/badge.svg)](https://github.com/IGNF/geoportal-access-lib-samples/actions/workflows/build.yml)
 [![DeepScan grade](https://deepscan.io/api/teams/12425/projects/17130/branches/382185/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=12425&pid=17130&bid=382185)
 
 # vuejs / geoportal-access-lib
