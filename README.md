@@ -1,3 +1,5 @@
+[![DeepScan grade](https://deepscan.io/api/teams/12425/projects/17130/branches/382185/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=12425&pid=17130&bid=382185)
+
 # vuejs / geoportal-access-lib
 
 Exemples d'utilisation de l'API des Services du Géoportail (geoportal-access-lib).
