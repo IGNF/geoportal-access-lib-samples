@@ -20,13 +20,13 @@ const router = new VueRouter({
     mode: 'history',
     base: __dirname,
     routes : [
-        { path: '/geocode', component: MyCptGeocode },
-        { path: '/autocomplete', component: MyCptAutoComplete },
-        { path: '/reversegeocode', component: MyCptReverseGeocode },
-        { path: '/alti', component: MyCptAlti },
-        { path: '/route', component: MyCptRoute },
-        { path: '/isocurve', component: MyCptIsoCurve },
-        { path: '/getconfig', component: MyCptGetConfig }
+        { path: '/geoportal-access-lib-samples/geocode', component: MyCptGeocode },
+        { path: '/geoportal-access-lib-samples/autocomplete', component: MyCptAutoComplete },
+        { path: '/geoportal-access-lib-samples/reversegeocode', component: MyCptReverseGeocode },
+        { path: '/geoportal-access-lib-samples/alti', component: MyCptAlti },
+        { path: '/geoportal-access-lib-samples/route', component: MyCptRoute },
+        { path: '/geoportal-access-lib-samples/isocurve', component: MyCptIsoCurve },
+        { path: '/geoportal-access-lib-samples/getconfig', component: MyCptGetConfig }
     ]
 });
 
